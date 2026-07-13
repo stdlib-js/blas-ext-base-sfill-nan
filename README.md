@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sfillNaN from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill-nan@esm/index.mjs';
+import sfillNaN from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill-nan@v0.0.0-esm/index.mjs';
 ```
 
 #### sfillNaN( N, alpha, x, strideX )
@@ -147,7 +147,7 @@ sfillNaN.ndarray( 3, 0.0, x, 1, x.length-3 );
 <script type="module">
 
 import nans from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-nans@esm/index.mjs';
-import sfillNaN from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill-nan@esm/index.mjs';
+import sfillNaN from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill-nan@v0.0.0-esm/index.mjs';
 
 var x = nans( 10, 'float32' );
 console.log( x );
